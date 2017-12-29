@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html style="height: 100%">
+   <head>
+       <meta charset="utf-8">
+   </head>
+   <body style="height: 100%; margin: 0">
+       <div class="top" style="height:15%; text-align:center;">
+            <ul>
+                <li>music 1</li>
+                <li>music 2</li>
+                <li>music 3</li>
+            </ul>
+        </div>
+
+       <p style="height:5%; text-align:center;">Volume<input id="volume" type = "range" min = "0" max = "100" value="60" ></p>
+
+       <div id="container" style="height: 80%"></div>
+       <script type="text/javascript" src="echarts.min.js"></script>
+       <script type="text/javascript" src="echarts-gl.min.js"></script>
+       <script type="text/javascript" src="index.js"></script>
+       <script type="text/javascript">
+var dom = document.getElementById("container");
+var myChart = echarts.init(dom);
+var app = {};
+  // Generate data
+var UPDATE_DURATION = 100;
+
+
+       </script>
+   </body>
+</html>
